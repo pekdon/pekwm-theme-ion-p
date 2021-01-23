@@ -75,6 +75,7 @@ Decor = "WORKSPACEINDICATOR" {
    Title {
         @BaseDecor
         Height = "0"
+        HeightAdapt = "False"
    }
 }
 
@@ -82,6 +83,16 @@ Decor = "WORKSPACEINDICATOR" {
 
 Harbour {
     Texture = "SolidRaised $COLOR_TAB_FS $COLOR_TAB_FS_LIGHT $COLOR_TAB_FS_DARK 1 0"
+}
+
+WorkspaceIndicator {
+  Font = "$FONT"
+  Background = "Solid $COLOR_TAB_FS"
+  Workspace = "Solid $COLOR_TAB_FS_LIGHT"
+  WorkspaceActive = "Solid $COLOR_TAB_FS_DARK"
+  Text = "$COLOR_FONT_FS"
+  EdgePadding = "5"
+  WorkspacePadding = "2"
 }
 
 Menu {
