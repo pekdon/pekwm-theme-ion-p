@@ -1,6 +1,6 @@
 # ion dark color variant
 
-$FONT = "Bitstream Vera Sans-10#Center#XFT"
+$FONT = "XFT#Bitstream Vera Sans-10#Center"
 
 # borders
 $COLOR_BORDER_FOCUSED="#303030"
