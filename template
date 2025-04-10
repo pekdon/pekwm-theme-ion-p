@@ -134,3 +134,19 @@ Status {
     Texture = "Solid $COLOR_STATUS_BG"
     Text = "$COLOR_STATUS_TEXT"
 }
+
+Panel {
+	Background = "Solid $COLOR_PANEL"
+	Focused {
+		Font = "$FONT#Center"
+		Color = "$COLOR_PANEL_FOCUSED"
+	}
+	Unfocused {
+		Font = "$FONT#Center"
+		Color = "$COLOR_PANEL_UNFOCUSED"
+	}
+	Iconified {
+		Font = "$FONT#Center"
+		Color = "$COLOR_PANEL_ICONIFIED"
+	}
+}
