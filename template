@@ -136,7 +136,7 @@ Status {
 }
 
 Panel {
-	Background = "Solid $COLOR_PANEL"
+	Background = "SolidRaised $COLOR_PANEL $COLOR_PANEL_BORDER_TOPLEFT $COLOR_PANEL_BORDER_BOTTOMRIGHT 1 0"
 	Focused {
 		Font = "$FONT#Center"
 		Color = "$COLOR_PANEL_FOCUSED"
